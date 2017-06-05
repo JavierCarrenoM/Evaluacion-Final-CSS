@@ -1,0 +1,346 @@
+@media only screen and (max-width: 899px){
+  body{
+    font-family: Dancing Script;
+    background-color: #02010a;
+    font-size: 1.5em;
+  }
+
+
+  #contenido{
+    margin: auto;
+    width:100%;
+  }
+
+
+  #encabezado{
+    border: solid 1px #5b7989;
+    background-color: #5b7989;
+    border-radius: 10px 10px 0 0;
+    -webkit-display: flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-animation: miAnimacion 1s;
+    animation: miAnimacion 1s;
+  }
+  @-webkit-keyframes miAnimacion{
+    0%{
+      margin-top: 150%;
+    }
+    60%{
+      margin-top: -5%;
+    }
+    100%{
+      margin-top: 0%;
+    }
+  }
+  header{
+    order: 1;
+  }
+  header h1{
+    text-align: center;
+    color: white;
+    -webkit-text-shadow: 2px 2px 2px #02010a;
+    text-shadow: 2px 2px 2px #02010a;
+  }
+  #menu{
+    text-align: center;
+    order: 2;
+  }
+  nav>p a{
+    -webkit-display: inline-block;
+    display: inline-block;
+  }
+  p>a{
+    color: white;
+    margin: 10px;
+    text-decoration: underline;
+  }
+  p>a:nth-child(even){
+    text-decoration: none;
+  }
+
+
+  #fotografias{
+    -webkit-display: flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border: solid 1px #d5c75f;
+    background-color: #d5c75f;
+  }
+  .imagen-paisajes source{
+    -webkit-box-shadow: 2px 2px 2px #02010a;
+    box-shadow: 2px 2px 2px #02010a;
+  }
+  .imagen-paisajes img{
+    -webkit-box-shadow: 2px 2px 2px #02010a;
+    box-shadow: 2px 2px 2px #02010a;
+  }
+  .paisaje1{
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+    order: 1;
+  }
+  .paisaje2{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    order: 2;
+  }
+  .paisaje3{
+    -webkit-filter: sepia(90%);
+    filter: sepia(90%);
+    order: 3;
+  }
+  .paisaje4{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    order: 4;
+  }
+  .paisaje5{
+    order: 5;
+  }
+  .paisaje6{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    order: 6;
+  }
+
+
+  footer{
+    border: solid 1px #C6d5c5;
+    background-color: #C6d5c5;
+    border-radius: 0 0 10px 10px;
+    -webkit-display: flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  #contacto{
+    margin-left: 5%;
+    font-weight: bold;
+    order: 1;
+  }
+  a{
+    color: black;
+  }
+  #terminos{
+    margin-left: 5%;
+    font-weight: bold;
+    order: 2;
+  }
+  #redes-sociales{
+    margin-left: 5%;
+    font-weight: bold;
+    order: 3;
+  }
+  .facebook>div img{
+    width: 5%;
+  }
+  .twitter>div img{
+    width: 5%;
+  }
+  .instagram>div img{
+    width: 6%;
+  }
+  #derechos{
+    margin-left: 5%;
+    font-weight: bold;
+    order: 4;
+  }
+}
+
+
+@media only screen and (min-width: 900px){
+  body{
+    font-family: Dancing Script;
+    background-color: #02010a;
+    font-size: 1.5em;
+  }
+
+
+  #contenido{
+    margin: auto;
+    width:900px;
+  }
+
+
+  #encabezado{
+    border: solid 1px #5b7989;
+    background-color: #5b7989;
+    border-radius: 10px 10px 0 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    -webkit-display: flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-animation: miAnimacion 1s;
+    animation: miAnimacion 1s;
+  }
+  @-webkit-keyframes miAnimacion{
+    0%{
+      margin-top: 150%;
+    }
+    60%{
+      margin-top: -5%;
+    }
+    100%{
+      margin-top: 0%;
+    }
+  }
+  header{
+    width: 70%;
+  }
+  header h1{
+    color: white;
+    margin-left: 10px;
+    -webkit-display: inline;
+    display: inline;
+    text-align: left;
+    -webkit-text-shadow: 2px 2px 2px #02010a;
+    text-shadow: 2px 2px 2px #02010a;
+  }
+  #menu{
+    width: 30%;
+    text-align: right;
+  }
+  nav>p a{
+    -webkit-display: inline-block;
+    display: inline-block;
+  }
+  p>a{
+    color: white;
+    margin-right: 10px;
+    text-align: right;
+    text-decoration: underline;
+  }
+  p>a:nth-child(even){
+    text-decoration: none;
+  }
+
+
+  #fotografias{
+    height: 100%;
+    border: solid 1px #d5c75f;
+    background-color: #d5c75f;
+  }
+  #seccion1{
+    height: 50%;
+    -webkit-display: flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  #seccion2{
+    height: 50%;
+    -webkit-display: flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  .imagen-paisajes source{
+    -webkit-box-shadow: 2px 2px 2px #02010a;
+    box-shadow: 2px 2px 2px #02010a;
+  }
+  .imagen-paisajes img{
+    -webkit-box-shadow: 2px 2px 2px #02010a;
+    box-shadow: 2px 2px 2px #02010a;
+  }
+  .paisaje1{
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+    order: 1;
+  }
+  .paisaje2{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    order: 2;
+  }
+  .paisaje3{
+    -webkit-filter: sepia(90%);
+    filter: sepia(90%);
+    order: 3;
+  }
+  .paisaje4{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    order: 4;
+  }
+  .paisaje5{
+    order: 5;
+  }
+  .paisaje6{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    order: 6;
+  }
+
+
+  footer{
+    font-size: 0.70em;
+    border: solid 1px #C6d5c5;
+    background-color: #C6d5c5;
+    border-radius: 0 0 10px 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    -webkit-display: flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+  }
+  #contacto{
+    width: 25%;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    order: 1;
+  }
+  a{
+    color: black;
+  }
+  #terminos{
+    width: 25%;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    order: 2;
+  }
+  #redes-sociales{
+    width: 25%;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    order: 3;
+  }
+  .facebook>div img{
+    width: 8%;
+  }
+  .twitter>div img{
+    width: 8%;
+  }
+  .instagram>div img{
+    width: 10%;
+  }
+  #derechos{
+    width: 25%;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    order: 4;
+  }
+}
